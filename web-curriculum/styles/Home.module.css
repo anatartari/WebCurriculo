@@ -1,13 +1,24 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap"); */
 .titulo {
-  font-family: "Raleway";
-  font-weight: bold;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
 }
 
 .subtitulo {
-  font-family: "Raleway";
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
 }
 
 .texto {
-  font-family: "Raleway";
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
 }
