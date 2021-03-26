@@ -20,7 +20,7 @@ export default function Sidebar() {
           />
         </Grid>
         <Grid item>
-          <span className="nome">Ana Paula Tartari Seidenstucker</span>
+          <span className="nome">Ana Paula Tártari Seidenstucker</span>
         </Grid>
       </Grid>
     </div>
