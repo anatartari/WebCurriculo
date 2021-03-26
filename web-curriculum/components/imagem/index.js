@@ -1,16 +1,14 @@
 import Menina from "../../public/undraw_dev_focus_b9xo.svg";
 import Image from "next/image";
-import style from "./style.module.css";
 
 export default function Imagem() {
   return (
-    <div>
+    <div style={{ marginRight: 80 }}>
       <Image
-        id={style.imagem}
         src={Menina}
         alt="Imagem da menina no computador"
-        width={250}
-        height={250}
+        width={300}
+        height={300}
       />
     </div>
   );
