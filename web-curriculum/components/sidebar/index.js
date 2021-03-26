@@ -1,5 +1,7 @@
 import styles from "./styles.module.css";
 import Grid from "@material-ui/core/Grid";
+import ListaIcone from "./listIcones";
+import LocalIcon from "../../public/placeholder.svg";
 
 export default function Sidebar() {
   return (
@@ -32,6 +34,9 @@ export default function Sidebar() {
             comunicação com os colegas de trabalho além de estar em constate
             aprendizado
           </p>
+        </Grid>
+        <Grid item>
+          <ListaIcone icone={LocalIcon} />
         </Grid>
       </Grid>
     </div>
