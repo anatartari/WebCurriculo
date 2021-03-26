@@ -3,6 +3,7 @@ import Head from "next/head";
 import Grid from "@material-ui/core/Grid";
 import Sidebar from "../components/sidebar";
 // import ImagemMenina from "../components/imagem/index";
+
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Drawer from "@material-ui/core/Drawer";
 import Hidden from "@material-ui/core/Hidden";
@@ -46,11 +47,6 @@ export default function Home(props) {
   const { window } = props;
   const classes = useStyles();
   const theme = useTheme();
-  const [mobileOpen, setMobileOpen] = React.useState(false);
-
-  const handleDrawerToggle = () => {
-    setMobileOpen(!mobileOpen);
-  };
 
   const drawer = (
     <div>
@@ -77,8 +73,7 @@ export default function Home(props) {
               container={container}
               variant="temporary"
               anchor={theme.direction === "rtl" ? "right" : "left"}
-              open={mobileOpen}
-              onClose={handleDrawerToggle}
+              open={false}
               classes={{
                 paper: classes.drawerPaper,
               }}
