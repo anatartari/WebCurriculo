@@ -1,0 +1,17 @@
+.foto {
+  width: 150px;
+  height: 150px;
+  /* left: 40px;
+  top: 43px; */
+  border-radius: 50%;
+}
+
+.nome {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+}

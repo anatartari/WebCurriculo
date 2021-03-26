@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Grid from "@material-ui/core/Grid";
+import Sidebar from "../components/sidebar";
+// import ImagemMenina from "../components/imagem/index";
 
 export default function Home() {
   return (
@@ -10,8 +12,14 @@ export default function Home() {
       </Head>
 
       <main>
-        <Grid>
-          <span>jksdhgfkh</span>
+        {/* <ImagemMenina /> */}
+        <Grid container direction="row" justify="space-between">
+          <Grid item md={2}>
+            <Sidebar />
+          </Grid>
+          <Grid item md={10} style={{ backgroundColor: "blue" }}>
+            <span>2 colana</span>
+          </Grid>
         </Grid>
       </main>
     </div>
