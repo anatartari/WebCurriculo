@@ -21,7 +21,6 @@ export default function Home() {
         <h1 className={styles.subtitulo}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-        <h1 className={styles.texto}>texto</h1>
       </main>
 
       <footer></footer>
