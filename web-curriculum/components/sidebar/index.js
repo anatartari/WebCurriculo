@@ -1,4 +1,4 @@
-import styles from "./styles.module.css";
+import styles from "../../styles/sidebar.module.css";
 import Grid from "@material-ui/core/Grid";
 import ListaIcone from "./listIcones";
 import LocalIcon from "../../public/placeholder.svg";
