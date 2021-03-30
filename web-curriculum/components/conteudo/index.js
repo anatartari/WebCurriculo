@@ -1,6 +1,9 @@
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import Titulo from "./titulo";
+import Subtitulo from "./subtitulo";
+import TopicosExp from "./topicosExp";
+import Tecnologias from "./tecnologias";
 
 export default function Conteudo() {
   return (
@@ -12,7 +15,13 @@ export default function Conteudo() {
         borderRadius: 10,
       }}
     >
-      <Titulo conteudo="Experiencias" />
+      <Grid item>
+        <Titulo conteudo="Experiencias" />
+        <TopicosExp />
+        {/* <Subtitulo conteudo="Tecnologias" /> */}
+        <Tecnologias />
+      </Grid>
+
       <Typography paragraph>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus

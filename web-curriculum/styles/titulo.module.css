@@ -4,3 +4,11 @@
   font: 600 1.3rem Raleway;
   text-align: justify;
 }
+
+.subtitulo {
+  font: 500 1.1rem Raleway;
+  text-align: justify;
+  display: block;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
