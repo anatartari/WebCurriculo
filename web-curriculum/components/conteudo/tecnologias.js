@@ -26,12 +26,11 @@ export default function SimpleGrow() {
         value={opcao}
         onChange={(event, novaOpcao) => {
           setOpcao(novaOpcao);
-          console.log(novaOpcao);
         }}
         showLabels
       >
         <BottomNavigationAction label="Backend" icon={<SettingsIcon />} />
-        <BottomNavigationAction label="Banco de dados" icon={<StorageIcon />} />
+        <BottomNavigationAction label="Databases" icon={<StorageIcon />} />
         <BottomNavigationAction label="Frontend" icon={<BrushIcon />} />
       </BottomNavigation>
 
