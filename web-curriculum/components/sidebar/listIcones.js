@@ -9,7 +9,7 @@ export default function ListaIcon(props) {
         topicos.map(function (t) {
           return (
             <Grid
-              key={topicos.conteudo}
+              key={t.conteudo}
               container
               direction="row"
               spacing={2}
