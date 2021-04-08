@@ -15,7 +15,7 @@ export default function Sidebar() {
     },
     {
       icon: FaculdadeIcon,
-      conteudo: "UCSal",
+      conteudo: "Eng da computação",
     },
     {
       icon: EmailIcon,
@@ -57,11 +57,10 @@ export default function Sidebar() {
       </Grid>
       <Grid item>
         <p className={styles.Sobre}>
-          Muito interessada na area de desenvolvimento backend, com
-          familharidade em desenvolvimento frontend e alem disso estudando
-          tecnicas de segurança da informação. Busco sempre ter uma otima
-          comunicação com os colegas de trabalho além de estar em constate
-          aprendizado
+          Tenho interesse na área de desenvolvimento Back-end. Possuo
+          familiaridade em desenvolvimento Front-end e estou aprimorando
+          técnicas de segurança da informação. Tenho uma boa comunicação e busco
+          estar em constate aprendizado
         </p>
       </Grid>
       <Grid item>
